@@ -1,12 +1,32 @@
+# Notes
+
+
+# fix: no longer working in "modern" browsers
+
+iframe not allowed - can block???
+
+```
+Refused to display 'http://www.google.com/doodle4google/history.html' in a frame because it set 'X-Frame-Options' to 'deny'.
+```
+
+build steps using classList.remove crashes e.g.
+
+```
+<ul class="build">
+
+slides.js:224 Uncaught SyntaxError: Failed to execute 'remove' on 'DOMTokenList': The token provided must not be empty.
+  -->   toBuild[0].classList.remove('to-build', '');
+```
+
 
 # Changes to Original Templates
 
 ## io2011
 
-- source repo online @ http://code.google.com/archive/html5slides
-- older (?) version online @ http://code.google.com/archive/io-2011-slides
+- source repo online @ http://code.google.com/archive/p/html5slides
+- older (?) version online @ http://code.google.com/archive/p/io-2011-slides
 
-- "latest" (?) version online @ http://code.google.com/archive/io-2012-slides
+- "latest" (?) version online @ http://code.google.com/archive/p/io-2012-slides
 
 
 - retrieved on 21/Sep/2012
